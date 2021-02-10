@@ -44,6 +44,7 @@ params:
     author: ian
     ShowReadingTime: true
     ShowShareButtons: true
+    defaultTheme: light
 
     homeInfoParams:
         Title: "Welcome :wave:"
