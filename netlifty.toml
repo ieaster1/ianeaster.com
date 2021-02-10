@@ -1,5 +1,5 @@
 [build]
-publish = "public"
+publish = ""
 command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context.production.environment]
