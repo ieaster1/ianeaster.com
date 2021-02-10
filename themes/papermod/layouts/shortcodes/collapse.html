@@ -1,7 +1,6 @@
 {{ if .Get "content" }}
 {{ if .Get "summary" }}
 {{ else }}
-{{ warnf "missing value for param 'summary': %s" .Position }}
 {{ end }}
 {{ else }}
 {{ errorf "missing value for param 'content': %s" .Position }}
