@@ -45,6 +45,7 @@ params:
     ShowReadingTime: true
     ShowShareButtons: true
     defaultTheme: light
+    canonifyurls: true
 
     homeInfoParams:
         Title: "Welcome :wave:"
