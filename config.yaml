@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://ianeaster.dev"
 title: "Ian Easter"
 paginate: 5
 theme: "papermod"
