@@ -1,0 +1,59 @@
+baseURL: "https://ianeaster.dev"
+title: "Ian Easter"
+paginate: 5
+theme: "papermod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+enableemoji: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: /about/
+          weight: 1
+        - name: Tags
+          url: /tags/
+          weight: 10
+
+googleAnalytics: UA-55214574-2
+
+markup:
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: "Ian Easter"
+    description: "Ian Easter personal blog and notes"
+    author: ian
+    ShowReadingTime: true
+    ShowShareButtons: true
+
+    homeInfoParams:
+        Title: "Welcome :wave:"
+        Content: "My little spot to share a collection of notes, projects, and info about me."
+
+    socialIcons:
+      - name: linkedin
+        url: "https://www.linkedin.com/in/ianeaster/"
+      - name: github
+        url: "https://github.com/ieaster1"
+      - name: discord
+        url: "https://discord.com/users/247570777963102208"
+      - name: buymeacoffee
+        url: "https://www.buymeacoffee.com/ieaster"
